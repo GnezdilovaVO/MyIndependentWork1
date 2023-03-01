@@ -1,14 +1,24 @@
-﻿Console.Write("Введите число: ");
+﻿int GetNumber(string s)
+{
+    Console.Write(s);
 
-int N = Convert.ToInt32(Console.ReadLine());
+    return Convert.ToInt32(Console.ReadLine());
+}
 
-int i = N % 10;
+int GetResult(int num)
+{
+    int i = num % 10;       //      125 % 10 = 5  
+    num = num / 100;        //      125 / 100 = 1
+    num = num * 10 + i;     //      1 * 10 + 5 =  15
 
-N = N / 100;
-
-N = N * 10 + i;
-
-Console.WriteLine(N);
+    return num;
+}
 
 
 
+
+int N = GetNumber("Введите число: ");
+
+int result = GetResult(N);
+
+Console.WriteLine(result);
