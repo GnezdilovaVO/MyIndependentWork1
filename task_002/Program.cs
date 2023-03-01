@@ -1,13 +1,27 @@
 ﻿Console.WriteLine(" По двум заданным числам проверять является ли одно квадратом другого");
 
-int A = 88;
+bool SQ(int A, int B)
+{
+    if (A / B == B)
+    {
+        return true; //Console.WriteLine("Является");
+    }
+    else
+    {
+        return false; //Console.WriteLine("Не является");
+    }
+}
+
+
+string GetResult(bool b)
+{
+    if (b) {return "Является";} else {return "Не является";}
+}
+
+int A = 49;
 int B = 7;
 
-if (A / B == B)
-{
-    Console.WriteLine("Является");
-}
-else
-{
-    Console.WriteLine("Не является");
-}
+bool check = SQ(A, B);
+string result = GetResult(check);
+
+Console.WriteLine(result);
