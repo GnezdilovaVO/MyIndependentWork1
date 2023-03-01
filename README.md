@@ -3,7 +3,7 @@
 1. Task_001
 #### Удалить вторую цифру трёхзначного числа
 
-![Блок-схема](/MyIndependentWork1/task_001/diagramma.drawio.png)
+![Блок-схема](task_001/diagramma.drawio.png)
 
 [Код](task_001/Program.cs)
 
