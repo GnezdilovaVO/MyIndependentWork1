@@ -3,7 +3,7 @@ public static class Library_2
 {
     public static void FeelArray(int[] Random)
     {
-        for (int i = 0, i< Random.length; i++)
+        for (int i = 0; i< Random.Length; i++)
         {
             Random[i] = new Random().Next(-100, 100);
         }

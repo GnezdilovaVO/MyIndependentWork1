@@ -1,6 +1,6 @@
 public static class Library4
 {
-    void NegativeElementArray(int[] array)
+    public static void NegativeElementArray(int[] array)
     {
         for (int i = 0; i < array.Length; i++)
         {

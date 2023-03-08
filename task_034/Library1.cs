@@ -9,8 +9,10 @@ public static class Library1
             {
             massiv = massiv + collection[i];
             }
-            massiv = massiv + collection[i] + ",";
+            else 
+            {massiv = massiv + collection[i] + ", ";}
         }
+        return massiv;
     }
-    return massiv
 }
+    
