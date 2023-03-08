@@ -18,7 +18,7 @@
 
 #### Подсчитать сумму цифр в числе
 
-![Блок-схема](task_003/diagramma.drawio.png)
+![Блок-схема](task_003/diagram.drawio.png)
 
 [Код](task_003/Program.cs)
 
@@ -29,3 +29,9 @@
 ![Блок-схема](task_004/diagramma.drawio.png)
 
 [Код](task_004/Program.cs)
+
+34. Task_004
+
+#### Написать программу замену элементов массива на противоположные
+
+[Код](task_034/Program.cs)
