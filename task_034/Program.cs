@@ -7,4 +7,3 @@ FeelArray(array);
 Console.WriteLine(printArray(array));
 NegativeElementArray(array);
 Console.WriteLine(printArray(array));
-
