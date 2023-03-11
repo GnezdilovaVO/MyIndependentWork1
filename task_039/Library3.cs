@@ -12,9 +12,9 @@ public static class Library3
     {
         int[] res = new int[5];                     // новый массив для хран резцльтата
         int result = 1;                             // задали переменную
-        int arrEnd = arr.Lenght - 1;                // переменная хранящая последний и предпоследий индкекс массива
+        int arrEnd = arr.Length - 1;                // переменная хранящая последний и предпоследий индкекс массива
 
-        for(int i = 0; i < arr.Lenght / 2; i++)     // цикл
+        for(int i = 0; i < arr.Length / 2; i++)     // цикл
         {                                           //i 0  1  2  3  4  5
             result = arr[i] * arr[arrEnd];          // [1, 3, 5, 6, 7, 5]
             arrEnd = arrEnd - 1;
