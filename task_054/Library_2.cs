@@ -1,4 +1,4 @@
-public static class Library
+public static class Library2
 {
     public static void PrintArray(int[,] array)
     {

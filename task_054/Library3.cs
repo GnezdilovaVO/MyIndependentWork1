@@ -1,6 +1,6 @@
 public static class Library3
 {
-    public static int[,] GetResult(int[,] a, int[,] b);
+    public static int[,] GetResult(int[,] a, int[,] b)
     {
         int[,] c = new int [3,3];
         
